@@ -1,3 +1,13 @@
+@media (max-width: 720px){
+  .navbar{
+   opacity: 0;
+  }
+}
+@media (min-width: 720.01px){
+  .navbar{
+    opacity: 1;
+  }
+}
 .navbar{
   height: 56px;
   position: fixed;
