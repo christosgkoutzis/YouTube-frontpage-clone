@@ -1,0 +1,97 @@
+.shorts-section{
+  padding: 0 20px;
+}
+.shorts-header{
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding: 0;
+}
+.shorts-header-left{
+  display: flex;
+  column-gap: 12px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.shorts-logo{
+  height: 50%;
+  object-fit: cover;
+}
+.shorts-close-button{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: none;
+  transition: background-color 0.15s;
+  cursor: pointer;
+  background-color: white;
+  font-size: 20px;
+  position: relative;
+}
+.shorts-close-button:hover{
+  background-color: rgb(240,240,240);
+}
+.shorts-close-button .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding: 8px 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  right: 50px;
+  bottom: 5px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.shorts-close-button:hover .tooltip{
+  opacity: 1;
+}
+.shorts-grid{
+  display: grid;
+  column-gap: 20px;
+  margin-bottom: 32px;
+  row-gap: 8px;
+}
+@media (max-width: 720px){
+  .shorts-grid{
+   grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 720.01px) and (max-width: 1127.01px){
+  .shorts-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media (min-width: 1127px) {
+  .shorts-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+.short-thumbnail{
+  display: block;
+  object-fit: cover;
+}
+.short-thumbnail img{
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.short-title{
+  font-weight: 500;
+  display: -webkit-box; /* This and the following 4 properties were used to hide and align properly short-title text to 2 lines */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 8px;
+  line-height: 22px;
+}
+.short-stats{
+  font-size: 14px;
+  color: rgb(96,96,96);
+}

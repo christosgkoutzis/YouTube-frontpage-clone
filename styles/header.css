@@ -1,91 +1,53 @@
-.header {
+.header{
   height: 55px;
-
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 100;
-
   background-color: white;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: rgb(228, 228, 228);
+  z-index: 100; /* Z-index was used on the header to avoid the main content floating over the header when scrolling */
 }
-
-.left-section {
+.left-section, .middle-section, .right-section{
   display: flex;
   align-items: center;
 }
-
-.hamburger-menu {
-  height: 24px;
+.left-section{
   margin-left: 24px;
-  margin-right: 24px;
 }
-
-.youtube-logo {
-  height: 20px;
-}
-
-.middle-section {
-  flex: 1;
+.middle-section{
+  flex: 1; /* flex and max-width properties are responsible for the responsiveness and proper function of the search bar */
   margin-left: 70px;
   margin-right: 35px;
-  max-width: 500px;
-  display: flex;
-  align-items: center;
+  max-width: 630px;
 }
-
-.search-bar {
-  flex: 1;
-  height: 36px;
-  padding-left: 10px;
-  font-size: 16px;
-  border: 1px solid rgb(192, 192, 192);
-  border-radius: 2px;
-  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
-  width: 0;
+.right-section{
+  width: 180px;
+  margin-right: 30px;
+  justify-content: space-between;
+  flex-shrink: 0; /* Flex-shrink property was used to prevent the section elements from resizing as the viewer resizes the window*/
 }
-
-.search-bar::placeholder {
-  font-size: 16px;
+.youtube-logo{
+  height: 20px;
+  object-fit: cover;
+  cursor: pointer;
+  margin-left: 24px;
 }
-
-.search-button {
-  height: 40px;
-  width: 66px;
-  background-color: rgb(240, 240, 240);
-  border-width: 1px;
-  border-style: solid;
-  border-color: rgb(192, 192, 192);
-  margin-left: -1px;
-  margin-right: 10px;
-}
-
-.search-button,
-.voice-search-button,
-.upload-icon-container {
+.hamburger-menu-container, .search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container, .notifications-icon-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  cursor: pointer;
 }
-
-.search-button .tooltip,
-.voice-search-button .tooltip,
-.upload-icon-container .tooltip {
+.search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container, .notifications-icon-container{
+  position: relative; /* To align the tooltips properly, the "position: absolute inside position: relative" technique was used */
+}
+.search-button .tooltip, .voice-search-button .tooltip, .upload-icon-container .tooltip, .youtube-apps-icon-container .tooltip, .notifications-icon-container .tooltip{
   position: absolute;
   background-color: gray;
   color: white;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding: 4px 8px;
   border-radius: 2px;
   font-size: 12px;
   bottom: -30px;
@@ -94,111 +56,71 @@
   pointer-events: none;
   white-space: nowrap;
 }
-
-.search-button:hover .tooltip,
-.voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip {
+.search-button:hover .tooltip, .voice-search-button:hover .tooltip, .upload-icon-container:hover .tooltip, .youtube-apps-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip{
   opacity: 1;
 }
-
-.search-icon {
-  height: 25px;
-}
-
-.voice-search-button {
+.search-button, .voice-search-button{
   height: 40px;
+  background-color: rgb(240,240,240);
+}
+.search-button{
+  width: 66px;
+  height: 36px;
+  border: 1px solid rgb(192,192,192);
+  margin-right: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.search-input{
+  width: 0px;
+  padding: 0;
+  margin:0;
+  border: none;
+}
+.voice-search-button{
   width: 40px;
   border-radius: 20px;
   border: none;
-  background-color: rgb(245, 245, 245);
+  transition: background-color 0.15s;
+  background-color: white;
 }
-
-.voice-search-icon {
+.hamburger-menu-container:hover, .voice-search-button:hover, .upload-icon-container:hover, .youtube-apps-icon-container:hover, .notifications-icon-container:hover{
+  background-color: rgb(240,240,240);
+  border-radius: 20px;
+}
+.voice-search-icon{
   height: 24px;
 }
-
-.right-section {
-  width: 180px;
-  margin-right: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-shrink: 0;
+.search-bar{
+  padding-left: 15px;
+  flex: 1;
+  height: 36px;
+  font-size: 16px;
+  border: 1px solid rgb(192,192,192);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+  width: 0; /* This property was used to make the search bar shrink as the viewer resizes the window all the way to 0px */
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
-
-.upload-icon {
+.search-icon, .hamburger-menu, .upload-icon, .youtube-apps-icon, .notifications-icon{
   height: 24px;
 }
-
-.youtube-apps-icon {
-  height: 24px;
+.hamburger-menu, .upload-icon, .youtube-apps-icon, .notifications-icon{
+  padding: 8px;
+  transition: background-color 0.15s;
 }
-
-.notifications-icon {
-  height: 24px;
-}
-
-.notifications-icon-container {
-  position: relative;
-}
-
-.notifications-count {
-  position: absolute;
-  top: -2px;
-  right: -5px;
-  background-color: rgb(200, 0, 0);
+.notifications-count{
+  position: absolute; /* The tooltip alignment technique mentioned above was also used to align notifications-count as the notifications container is already position: relative */
+  top: 4px;
+  right: 1px;
+  background-color: rgb(200,0,0);
   color: white;
   font-size: 11px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 2px 5px;
   border-radius: 10px;
 }
-
-.current-user-picture {
+.current-user-picture{
   height: 32px;
   border-radius: 16px;
-}
-
-.search-button,
-.voice-search-button,
-.upload-icon-container,
-.youtube-apps-icon-container,
-.notifications-icon-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.search-button .tooltip,
-.voice-search-button .tooltip,
-.upload-icon-container .tooltip,
-.youtube-apps-icon-container .tooltip,
-.notifications-icon-container .tooltip {
-  font-family: Roboto, Arial;
-  position: absolute;
-  background-color: gray;
-  color: white;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  padding-left: 8px;
-  padding-right: 8px;
-  border-radius: 2px;
-  font-size: 12px;
-  bottom: -30px;
-  opacity: 0;
-  transition: opacity 0.15s;
-  pointer-events: none;
-  white-space: nowrap;
-}
-
-.search-button:hover .tooltip,
-.voice-search-button:hover .tooltip,
-.upload-icon-container:hover .tooltip,
-.youtube-apps-icon-container:hover .tooltip,
-.notifications-icon-container:hover .tooltip {
-  opacity: 1;
 }

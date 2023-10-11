@@ -1,14 +1,28 @@
-p {
+p{
   margin-top: 0;
   margin-bottom: 0;
 }
-
-body {
-  /* This style below will be inherited */
+a, a:hover, a:active, a:visited, a:link{
+  color: black;
+  text-decoration: none;
+}
+body{
   font-family: Roboto, Arial;
   margin: 0;
   padding-top: 80px;
-  padding-left: 96px;
-  padding-right: 24px;
-  background-color: rgb(248, 248, 248);
+  padding-left: 104px;
+  padding-right: 32px;
+  height: 2000px;
+}
+@media (max-width: 789.99px){ /* Media Query in case the sidebar disappears */
+  body{
+    padding-left: 32px;
+  }
+}
+.section-border{
+  display: block;
+  height: 4px;
+  background-color: rgb(240,240,240);
+  border-radius: 8px;
+  margin-bottom: 30px;
 }

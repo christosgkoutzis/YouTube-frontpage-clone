@@ -1,4 +1,4 @@
-.sidebar {
+.sidebar{
   position: fixed;
   left: 0;
   bottom: 0;
@@ -7,9 +7,16 @@
   width: 72px;
   z-index: 200;
   padding-top: 5px;
+  padding-left: 3px;
 }
-
-.sidebar-link {
+@media (max-width: 789.99px){
+  .sidebar{
+    opacity: 0;
+  }
+}
+.sidebar-link{
+  font-size: 11px;
+  white-space: nowrap; /* This property was used to avoid YouTube Music element from wrapping text to the next line */
   height: 74px;
   display: flex;
   justify-content: center;
@@ -17,16 +24,11 @@
   flex-direction: column;
   cursor: pointer;
 }
-
-.sidebar-link:hover {
+.sidebar-link:hover{
   background-color: rgb(235, 235, 235);
+  border-radius: 12px;
 }
-
-.sidebar-link img {
-  height: 24px;
-  margin-bottom: 4px;
-}
-
-.sidebar-link div {
-  font-size: 10px;
+.sidebar img{
+  height: 33%;
+  margin-bottom: 6px;
 }
