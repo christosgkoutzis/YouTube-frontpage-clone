@@ -77,6 +77,7 @@ Included the navbar below the header that includes recommended video categories 
 ## RoadMap
 
 - Make the page fully compatible to all types of mobile devices (screens) by implementing more responsive friendly features to the source code (like rem)
+  
 - Implement redirect links and navigation arrows for the video category navbar
 
 ## Contributing
@@ -85,7 +86,7 @@ This (as the forked repository) remains an open source project. Please feel free
 
 ## Contributors
 
-<a href="https://github.com/SuperSimpleDev">SuperSimpleDev</a> (Created <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">this</a> amazing beginner HTML-CSS course that gave me the basic structure and features of the project as well as the knowledge to improve it)
+- <a href="https://github.com/SuperSimpleDev">SuperSimpleDev</a> (Created <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">this</a> amazing beginner HTML-CSS course that gave me the basic structure and features of the project as well as the knowledge to improve it)
 
 ## License
 
