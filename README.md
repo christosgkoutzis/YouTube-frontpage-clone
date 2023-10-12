@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">An updated version of the final project of the HTML-CSS course by SuperSimpleDev.</p>
-<p>GitHub pages link: https://christosgkoutzis.github.io/YouTube-frontpage-clone/</p>
+<p align="center">GitHub pages link: https://christosgkoutzis.github.io/YouTube-frontpage-clone/</p>
 
 <h4 align="center">
     <img src="https://png2.cleanpng.com/sh/225309455183bd9cac40e50cfc4acdc3/L0KzQYm3V8MxN5t4iJH0aYP2gLBuTfxwb5Cye9N8Y3HnebBuTgN1gZ1qReVxZXX3g37vlP1tPV5oiAU8LYD1cbj6TfgueKp5gNH3LYP3ebTyhgJ0NWZnTddtMka1RYmBWcE5NmY1S6oAN0O4QYa6Usk1OGkAUKUBMkexgLBu/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed262588918.5038573515329408983627.png" width=25% alt="continuous integration">
