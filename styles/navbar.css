@@ -1,33 +1,37 @@
-@media (max-width: 720px){
+@media (max-width: 789.99px){
   .navbar{
-   opacity: 0;
-  }
-}
-@media (min-width: 720.01px){
-  .navbar{
-    opacity: 1;
+    margin-left: -72px;
   }
 }
 .navbar{
-  height: 56px;
+  height: 55px;
   position: fixed;
   top: 55px;
   left: 72px;
   right: 0;
-  padding-right: 40px;
-  padding-left: 20px;
-  margin-left: 20px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  min-width: 0;
+  flex: 1;
+  padding-left: 20px;
   z-index: 100;
   background-color: white;
 }
+.video-categories-list{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  overflow-x: scroll; /* Handles overflow of inner elements with a scrollbar */
+}
+.video-categories-list::-webkit-scrollbar{
+  height: 0;
+}
 .video-category{
   background-color: rgb(245, 245, 245);
+  margin: 0 10px;
   padding: 6px 14px;
   border-radius: 8px;
   transition: background-color 0.15s;
+  white-space: nowrap;
 }
 .video-category:hover{
   background-color: rgb(235, 235, 235);

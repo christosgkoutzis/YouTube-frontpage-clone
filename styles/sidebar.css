@@ -12,6 +12,7 @@
 @media (max-width: 789.99px){
   .sidebar{
     opacity: 0;
+    width: 0;
   }
 }
 .sidebar-link{

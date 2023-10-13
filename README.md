@@ -89,6 +89,8 @@ This (as the forked repository) remains an open source project. Please feel free
 
 - <a href="https://github.com/SuperSimpleDev">SuperSimpleDev</a> (Created <a href="https://www.youtube.com/watch?v=G3e-cpL7ofc">this</a> amazing beginner HTML-CSS course that gave me the basic structure and features of the project as well as the knowledge to improve it)
 
+- <a href="https://www.youtube.com/@imecreative5">ime creative</a> (His YouTube frontpage tutorial helped me in improving the visuals of the video category navbar)
+
 ## License
 
 This project is licensed under the MIT license. 
