@@ -19,7 +19,7 @@
 .middle-section{
   flex: 1; /* flex and max-width properties are responsible for the responsiveness and proper function of the search bar */
   margin-left: 70px;
-  margin-right: 35px;
+  margin-right: 35px; 
   max-width: 630px;
 }
 .right-section{
@@ -49,7 +49,7 @@
   color: white;
   padding: 4px 8px;
   border-radius: 2px;
-  font-size: 12px;
+  font-size: 0.75rem;
   bottom: -30px;
   opacity: 0;
   transition: opacity 0.15s;
@@ -95,7 +95,7 @@
   padding-left: 15px;
   flex: 1;
   height: 36px;
-  font-size: 16px;
+  font-size: 1rem;
   border: 1px solid rgb(192,192,192);
   border-radius: 2px;
   box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
@@ -116,7 +116,7 @@
   right: 1px;
   background-color: rgb(200,0,0);
   color: white;
-  font-size: 11px;
+  font-size: 0.6875rem;
   padding: 2px 5px;
   border-radius: 10px;
 }
