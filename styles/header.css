@@ -14,17 +14,17 @@
   align-items: center;
 }
 .left-section{
-  margin-left: 24px;
+  margin-left: 1.88vw;
 }
 .middle-section{
   flex: 1; /* flex and max-width properties are responsible for the responsiveness and proper function of the search bar */
-  margin-left: 70px;
-  margin-right: 35px; 
+  margin-left: 5.51vw;
+  margin-right: 2.75vw; 
   max-width: 630px;
 }
 .right-section{
   width: 180px;
-  margin-right: 30px;
+  margin-right: 2.36vw;
   justify-content: space-between;
   flex-shrink: 0; /* Flex-shrink property was used to prevent the section elements from resizing as the viewer resizes the window*/
 }
@@ -32,7 +32,7 @@
   height: 20px;
   object-fit: cover;
   cursor: pointer;
-  margin-left: 24px;
+  margin-left: 1.88vw;
 }
 .hamburger-menu-container, .search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container, .notifications-icon-container{
   display: flex;
@@ -47,7 +47,7 @@
   position: absolute;
   background-color: gray;
   color: white;
-  padding: 4px 8px;
+  padding: 0.64vh 0.62vw;
   border-radius: 2px;
   font-size: 0.75rem;
   bottom: -30px;
@@ -67,7 +67,7 @@
   width: 66px;
   height: 36px;
   border: 1px solid rgb(192,192,192);
-  margin-right: 10px;
+  margin-right: 0.78vw;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
 }
@@ -92,7 +92,7 @@
   height: 24px;
 }
 .search-bar{
-  padding-left: 15px;
+  padding-left: 1.18vw;
   flex: 1;
   height: 36px;
   font-size: 1rem;
