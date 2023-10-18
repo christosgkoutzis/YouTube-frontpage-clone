@@ -23,7 +23,7 @@
   max-width: 630px;
 }
 .right-section{
-  width: 180px;
+  width: 140px;
   margin-right: 2.36vw;
   justify-content: space-between;
   flex-shrink: 0; /* Flex-shrink property was used to prevent the section elements from resizing as the viewer resizes the window*/
@@ -34,16 +34,16 @@
   cursor: pointer;
   margin-left: 1.88vw;
 }
-.hamburger-menu-container, .search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container, .notifications-icon-container{
+.hamburger-menu-container, .search-button, .voice-search-button, .upload-icon-container, .notifications-icon-container{
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
 }
-.search-button, .voice-search-button, .upload-icon-container, .youtube-apps-icon-container, .notifications-icon-container{
+.search-button, .voice-search-button, .upload-icon-container, .notifications-icon-container{
   position: relative; /* To align the tooltips properly, the "position: absolute inside position: relative" technique was used */
 }
-.search-button .tooltip, .voice-search-button .tooltip, .upload-icon-container .tooltip, .youtube-apps-icon-container .tooltip, .notifications-icon-container .tooltip{
+.search-button .tooltip, .voice-search-button .tooltip, .upload-icon-container .tooltip, .notifications-icon-container .tooltip{
   position: absolute;
   background-color: gray;
   color: white;
@@ -56,7 +56,7 @@
   pointer-events: none;
   white-space: nowrap;
 }
-.search-button:hover .tooltip, .voice-search-button:hover .tooltip, .upload-icon-container:hover .tooltip, .youtube-apps-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip{
+.search-button:hover .tooltip, .voice-search-button:hover .tooltip, .upload-icon-container:hover .tooltip, .notifications-icon-container:hover .tooltip{
   opacity: 1;
 }
 .search-button, .voice-search-button{
@@ -84,7 +84,7 @@
   transition: background-color 0.15s;
   background-color: white;
 }
-.hamburger-menu-container:hover, .voice-search-button:hover, .upload-icon-container:hover, .youtube-apps-icon-container:hover, .notifications-icon-container:hover{
+.hamburger-menu-container:hover, .voice-search-button:hover, .upload-icon-container:hover, .notifications-icon-container:hover{
   background-color: rgb(240,240,240);
   border-radius: 20px;
 }
@@ -103,10 +103,10 @@
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
-.search-icon, .hamburger-menu, .upload-icon, .youtube-apps-icon, .notifications-icon{
+.search-icon, .hamburger-menu, .upload-icon, .notifications-icon{
   height: 24px;
 }
-.hamburger-menu, .upload-icon, .youtube-apps-icon, .notifications-icon{
+.hamburger-menu, .upload-icon, .notifications-icon{
   padding: 8px;
   transition: background-color 0.15s;
 }
