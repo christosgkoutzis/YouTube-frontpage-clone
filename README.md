@@ -1,6 +1,10 @@
 <h1 align="center">
     <a href="https://christosgkoutzis.github.io/YouTube-frontpage-clone/">
-    <img src="icons/youtube-logo.svg" width=50%>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://cdn.gtricks.com/2021/04/how-to-enable-youtube-dark-mode-on-pc-and-android-ios.jpg" width=50%>
+          <source media="(prefers-color-scheme: light)" srcset="icons/youtube-logo.svg" width=50%>
+          <img alt="YouTube logo" src="icons/youtube-logo.svg">
+        </picture>
     </a>
 </h1>
 
