@@ -12,7 +12,7 @@
 <p align="center">GitHub pages link: https://christosgkoutzis.github.io/YouTube-frontpage-clone/</p>
 
 <h4 align="center">
-    <img src="https://png2.cleanpng.com/sh/225309455183bd9cac40e50cfc4acdc3/L0KzQYm3V8MxN5t4iJH0aYP2gLBuTfxwb5Cye9N8Y3HnebBuTgN1gZ1qReVxZXX3g37vlP1tPV5oiAU8LYD1cbj6TfgueKp5gNH3LYP3ebTyhgJ0NWZnTddtMka1RYmBWcE5NmY1S6oAN0O4QYa6Usk1OGkAUKUBMkexgLBu/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed262588918.5038573515329408983627.png" width=25% alt="continuous integration">
+    <img src="https://png2.cleanpng.com/sh/225309455183bd9cac40e50cfc4acdc3/L0KzQYm3V8MxN5t4iJH0aYP2gLBuTfxwb5Cye9N8Y3HnebBuTgN1gZ1qReVxZXX3g37vlP1tPV5oiAU8LYD1cbj6TfgueKp5gNH3LYP3ebTyhgJ0NWZnTddtMka1RYmBWcE5NmY1S6oAN0O4QYa6Usk1OGkAUKUBMkexgLBu/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed262588918.5038573515329408983627.png" width=25% alt="HTML5 - CSS3">
 </h4>
 
 
@@ -95,6 +95,8 @@ This (as the forked repository) remains an open source project. Please feel free
 
 - <a href="https://www.youtube.com/@imecreative5">ime creative</a> (His YouTube frontpage tutorial helped me in improving the visuals of the video category navbar)
 
+- <a href="https://stackoverflow.com/users/1274378/bora-alp-arat">Bora Alp Arat</a> (His response to <a href="https://stackoverflow.com/questions/21684101/css-vertical-scrollbar-padding-left-right-in-ul-possible">this</a> question on Stack Overflow helped me understand how to add styles in my scrollbar (and especially the sense of padding of the scrollbar thumb)
+  
 ## License
 
 This project is licensed under the MIT license. 
