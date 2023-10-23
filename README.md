@@ -79,11 +79,11 @@ Video Categories navbar
 Included the navbar below the header that includes recommended video categories for the user. The categories do not lead to youtube.com yet (!!TODO).
 </details>
 
-## RoadMap
-
-- Make the page fully compatible to all types of mobile devices (screens) by implementing more responsive friendly features to the source code (like rem)
+## Roadmap
   
-- Implement redirect links and navigation arrows for the video category navbar
+- Implement navigation arrows for the video category navbar (using JS)
+
+- Implement funcionality for the hamburger menu button (change between sidebar navbars using JS)
 
 ## Contributing
 
