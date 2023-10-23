@@ -1,6 +1,8 @@
+html, body{
+  overflow-x: hidden; /* Added to prevent horizontal overflow in mobile devices */
+}
 p{
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
 }
 a, a:hover, a:active, a:visited, a:link{
   color: black;
@@ -12,7 +14,7 @@ body{
   padding-top: 80px;
   padding-left: 104px;
   padding-right: 32px;
-  height: 2000px;
+  position: relative; /* Added to prevent horizontal overflow in mobile devices */
 }
 @media (max-width: 789.99px){ /* Media Query in case the sidebar disappears */
   body{
