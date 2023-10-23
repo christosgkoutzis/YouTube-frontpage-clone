@@ -9,6 +9,11 @@
   background-color: white;
   z-index: 200; /* Z-index was used on the header to avoid the main content floating over the header when scrolling */
 }
+@media (max-width: 359px){
+  .header{
+    display: none;
+  }
+}
 .left-section, .middle-section, .right-section{
   display: flex;
   align-items: center;
@@ -23,7 +28,7 @@
   max-width: 630px;
 }
 .right-section{
-  width: 140px;
+  max-width: 140px;
   margin-right: 2.36vw;
   justify-content: space-between;
   flex-shrink: 0; /* Flex-shrink property was used to prevent the section elements from resizing as the viewer resizes the window*/
@@ -70,6 +75,14 @@
   margin-right: 0.78vw;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+}
+@media (max-width: 450px){
+  .search-button{
+    width: auto; /* Mobile responsive setting */
+  }
+  .left-section{
+    margin-left: .5vw;
+  }
 }
 .search-input{
   width: 0px;
