@@ -7,7 +7,7 @@
   left: 0;
   right: 0;
   background-color: white;
-  z-index: 100; /* Z-index was used on the header to avoid the main content floating over the header when scrolling */
+  z-index: 200; /* Z-index was used on the header to avoid the main content floating over the header when scrolling */
 }
 .left-section, .middle-section, .right-section{
   display: flex;
