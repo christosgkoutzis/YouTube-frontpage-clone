@@ -12,7 +12,8 @@
 <p align="center">GitHub pages link: https://christosgkoutzis.github.io/YouTube-frontpage-clone/</p>
 
 <h4 align="center">
-    <img src="https://png2.cleanpng.com/sh/225309455183bd9cac40e50cfc4acdc3/L0KzQYm3V8MxN5t4iJH0aYP2gLBuTfxwb5Cye9N8Y3HnebBuTgN1gZ1qReVxZXX3g37vlP1tPV5oiAU8LYD1cbj6TfgueKp5gNH3LYP3ebTyhgJ0NWZnTddtMka1RYmBWcE5NmY1S6oAN0O4QYa6Usk1OGkAUKUBMkexgLBu/kisspng-logo-cascading-style-sheets-html5-css3-prags-h-python-stickers-5b5ed262588918.5038573515329408983627.png" width=25% alt="HTML5 - CSS3">
+    <img src="https://github.com/christosgkoutzis/YouTube-frontpage-clone/assets/133900804/a1c9c533-dcfc-41b4-bb3d-a6351b4c2269" width=12.5% alt="HTML5 - CSS3">
+    <img src="https://github.com/christosgkoutzis/YouTube-frontpage-clone/assets/133900804/fcaad2c0-fe29-49f3-9a70-e9ca7ecb0916" width=12.5% alt="HTML5 - CSS3">
 </h4>
 
 
